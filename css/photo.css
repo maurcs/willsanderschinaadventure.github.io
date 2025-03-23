@@ -1,0 +1,51 @@
+/* STANDARD STYLES */
+*    { margin: 0; padding: 0; }
+
+body { background: #FFF; color: #241D4D; }
+body, tr, td,
+input, textarea { font-size: 11px; line-height:135%; font-family: Verdana, Arial, Helvetica, sans-serif; }
+
+a:link    { color:#241D4D; text-decoration: underline; }
+a:visited { color:#241D4D;text-decoration: underline; }
+a:hover   { color:#7B9FC3; text-decoration: underline; }
+
+h1 { font-size: 32px; color:#990000; }
+h2 { font-size: 150%; }
+h3 { font-size: 120%; }
+h4 { font-size: 100%; }
+h5 { font-size: 80%;  }
+h6 { font-size: 60%;  }
+
+p  { line-height: 1.6em; margin: 10px 0; }
+
+ul, ol, dl {  line-height: 1.6em; }
+
+hr { width: 100%; }
+img { border: none; padding: 0; margin: 0; }
+
+/* REDECARE STYLES */
+div#main{
+	width:740px;
+	background:#fff;
+	border:solid 1px #ccc;
+	padding:10px;
+	margin:auto;
+}
+div#page{
+	width:100%;
+	background:#cc0000;
+}
+.paginate{
+	font-size:14px;
+	font-weight:bold;
+}
+.paginate a{
+	font-weight:normal;
+}
+div.photo{
+	width:115px;
+	float:left;
+	border:solid 1px #330000;
+	margin:0 10px 10px 0;
+	padding:10px;
+}
