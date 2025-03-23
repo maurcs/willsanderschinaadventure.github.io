@@ -1,7 +1,4 @@
-<div id='error'>
-			<p class='wpdberror'><strong>WordPress database error:</strong> [Expression #25 of SELECT list is not in GROUP BY clause and contains nonaggregated column &#039;wsca_wordpress.wscawp_post2cat.rel_id&#039; which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by]<br />
-			<code> SELECT DISTINCT * FROM wscawp_posts  LEFT JOIN wscawp_post2cat ON (wscawp_posts.ID = wscawp_post2cat.post_id)  WHERE 1=1 AND (category_id = 3) AND post_date_gmt &lt;= &#039;2025-03-23 19:02:59&#039; AND (post_status = &quot;publish&quot;) AND post_status != &quot;attachment&quot; GROUP BY  wscawp_posts.ID  ORDER BY post_date DESC LIMIT 0, 4</code></p>
-			</div><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head profile="http://gmpg.org/xfn/11">
@@ -80,10 +77,7 @@
 </ul></li>
 			<li><h2>Archives</h2>
 				<ul>
-				<div id='error'>
-			<p class='wpdberror'><strong>WordPress database error:</strong> [Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column &#039;wsca_wordpress.wscawp_posts.post_date&#039; which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by]<br />
-			<code>SELECT DISTINCT YEAR(post_date) AS `year`, MONTH(post_date) AS `month`, count(ID) as posts FROM wscawp_posts WHERE post_date &lt; &#039;2025-03-23 11:02:44&#039; AND post_date != &#039;0000-00-00 00:00:00&#039; AND post_status = &#039;publish&#039; GROUP BY YEAR(post_date), MONTH(post_date) ORDER BY post_date DESC</code></p>
-			</div>				</ul>
+							</ul>
 			</li>
 
 			<li><h2>Categories</h2>
